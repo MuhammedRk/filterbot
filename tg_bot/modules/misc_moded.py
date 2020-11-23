@@ -267,7 +267,7 @@ __help__ = """
  - /listcmds: *list all possible toggleable commands*
 """
 
-__mod_name__ = "Misc"
+__mod_name__ = "𝐌𝐈𝐒𝐂+𝐂𝐎𝐌𝐌𝐀𝐍𝐃𝐒"
 
 ID_HANDLER = DisableAbleCommandHandler("id", get_id, pass_args=True)
 IP_HANDLER = CommandHandler("ip", get_bot_ip, filters=Filters.chat(OWNER_ID))
