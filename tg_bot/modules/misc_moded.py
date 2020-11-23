@@ -248,12 +248,23 @@ def getsticker(bot: Bot, update: Update):
 
 # /ip is for private use
 __help__ = """
- - /id: get the current group id. If used by replying to a message, gets that user's id.
- - /info: get information about a user.
- - /whois: Same as /info. 
- - /markdownhelp: quick summary of how markdown works in telegram - can only be called in private chats.
- - /stickerid: reply to a sticker and get sticker id of that.
- - /getsticker: reply to a sticker and get that sticker as .png and image. 
+*MISC*👇
+
+ - /id: *get the current group id. If used by replying to a message, gets that user's id*.
+ - /info: *get information about a user*.
+ - /whois: *Same as* /info. 
+ - /markdownhelp: *quick summary of how markdown works in telegram - can only be called in private chats*.
+ - /stickerid: *reply to a sticker and get sticker id of that*.
+ - /getsticker: *reply to a sticker and get that sticker as .png and image*.
+
+*COMMANDS*👇
+
+ - /cmds: *check the current status of disabled commands*
+
+*Admin only:*
+ - /enable <cmd name>: *enable that command*
+ - /disable <cmd name>: *disable that command*
+ - /listcmds: *list all possible toggleable commands*
 """
 
 __mod_name__ = "Misc"
