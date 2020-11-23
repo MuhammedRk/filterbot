@@ -146,15 +146,21 @@ if is_module_loaded(FILENAME):
         return build_curr_disabled(chat_id)
 
 
-    __mod_name__ = "Command Disable"
+    __mod_name__ = "📘𝐀𝐁𝐎𝐔𝐓"
 
     __help__ = """
- - /cmds: check the current status of disabled commands
+*𝖬𝗒 𝖣𝖾𝗍𝖺𝗂𝗅s*
+  🤖𝐌𝐲 𝐍𝐚𝐦𝐞: 𝐅𝐢𝐥𝐭𝐞𝐫 𝐁𝐨𝐭⚡
+    
+  📝 𝐋𝐚𝐧𝐠𝐮𝐚𝐠𝐞: 𝐏𝐲𝐭𝐡𝐨𝐧
 
-*Admin only:*
- - /enable <cmd name>: enable that command
- - /disable <cmd name>: disable that command
- - /listcmds: list all possible toggleable commands
+  👨‍💻 𝐃𝐞𝐯𝐞𝐥𝐨𝐩𝐞𝐫: *@Game_God_77*
+
+  📢 𝐂𝐡𝐚𝐧𝐧𝐞𝐥:  *@Mo_Tech_Channel*
+
+  🌐 𝐒𝐨𝐮𝐫𝐜𝐞 𝐂𝐨𝐝𝐞: [Press Me 🥰](github.com/Mo-Tech-Muhammed/FilterBot-1)
+
+  ✔️ 𝐘𝐨𝐮𝐭𝐮𝐛𝐞 : [Click Here😎](https://youtube.com/channel/UCmGBpXoM-OEm-FacOccVKgQ)
     """
 
     DISABLE_HANDLER = CommandHandler("disable", disable, pass_args=True, filters=Filters.group)
